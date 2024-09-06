@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C656212C8B6EEC0070FBCB /* instaflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656202C8B6EEC0070FBCB /* instaflixApp.swift */; };
+		55C656232C8B6EEC0070FBCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656222C8B6EEC0070FBCB /* ContentView.swift */; };
+		55C656252C8B6EEF0070FBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C656242C8B6EEF0070FBCB /* Assets.xcassets */; };
+		55C656282C8B6EEF0070FBCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C656272C8B6EEF0070FBCB /* Preview Assets.xcassets */; };
+		55C656322C8B6EF00070FBCB /* instaflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656312C8B6EF00070FBCB /* instaflixTests.swift */; };
+		55C6563C2C8B6EF00070FBCB /* instaflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6563B2C8B6EF00070FBCB /* instaflixUITests.swift */; };
+		55C6563E2C8B6EF00070FBCB /* instaflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6563D2C8B6EF00070FBCB /* instaflixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55C6562E2C8B6EF00070FBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C656152C8B6EEC0070FBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C6561C2C8B6EEC0070FBCB;
+			remoteInfo = instaflix;
+		};
+		55C656382C8B6EF00070FBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C656152C8B6EEC0070FBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C6561C2C8B6EEC0070FBCB;
+			remoteInfo = instaflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55C6561D2C8B6EEC0070FBCB /* instaflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C656202C8B6EEC0070FBCB /* instaflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaflixApp.swift; sourceTree = "<group>"; };
+		55C656222C8B6EEC0070FBCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55C656242C8B6EEF0070FBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C656272C8B6EEF0070FBCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55C6562D2C8B6EF00070FBCB /* instaflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instaflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C656312C8B6EF00070FBCB /* instaflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaflixTests.swift; sourceTree = "<group>"; };
+		55C656372C8B6EF00070FBCB /* instaflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instaflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C6563B2C8B6EF00070FBCB /* instaflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaflixUITests.swift; sourceTree = "<group>"; };
+		55C6563D2C8B6EF00070FBCB /* instaflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C6561A2C8B6EEC0070FBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C6562A2C8B6EF00070FBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C656342C8B6EF00070FBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C656142C8B6EEC0070FBCB = {
+			isa = PBXGroup;
+			children = (
+				55C6561F2C8B6EEC0070FBCB /* instaflix */,
+				55C656302C8B6EF00070FBCB /* instaflixTests */,
+				55C6563A2C8B6EF00070FBCB /* instaflixUITests */,
+				55C6561E2C8B6EEC0070FBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55C6561E2C8B6EEC0070FBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C6561D2C8B6EEC0070FBCB /* instaflix.app */,
+				55C6562D2C8B6EF00070FBCB /* instaflixTests.xctest */,
+				55C656372C8B6EF00070FBCB /* instaflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C6561F2C8B6EEC0070FBCB /* instaflix */ = {
+			isa = PBXGroup;
+			children = (
+				55C656202C8B6EEC0070FBCB /* instaflixApp.swift */,
+				55C656222C8B6EEC0070FBCB /* ContentView.swift */,
+				55C656242C8B6EEF0070FBCB /* Assets.xcassets */,
+				55C656262C8B6EEF0070FBCB /* Preview Content */,
+			);
+			path = instaflix;
+			sourceTree = "<group>";
+		};
+		55C656262C8B6EEF0070FBCB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55C656272C8B6EEF0070FBCB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55C656302C8B6EF00070FBCB /* instaflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				55C656312C8B6EF00070FBCB /* instaflixTests.swift */,
+			);
+			path = instaflixTests;
+			sourceTree = "<group>";
+		};
+		55C6563A2C8B6EF00070FBCB /* instaflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55C6563B2C8B6EF00070FBCB /* instaflixUITests.swift */,
+				55C6563D2C8B6EF00070FBCB /* instaflixUITestsLaunchTests.swift */,
+			);
+			path = instaflixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C6561C2C8B6EEC0070FBCB /* instaflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C656412C8B6EF00070FBCB /* Build configuration list for PBXNativeTarget "instaflix" */;
+			buildPhases = (
+				55C656192C8B6EEC0070FBCB /* Sources */,
+				55C6561A2C8B6EEC0070FBCB /* Frameworks */,
+				55C6561B2C8B6EEC0070FBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instaflix;
+			productName = instaflix;
+			productReference = 55C6561D2C8B6EEC0070FBCB /* instaflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55C6562C2C8B6EF00070FBCB /* instaflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C656442C8B6EF00070FBCB /* Build configuration list for PBXNativeTarget "instaflixTests" */;
+			buildPhases = (
+				55C656292C8B6EF00070FBCB /* Sources */,
+				55C6562A2C8B6EF00070FBCB /* Frameworks */,
+				55C6562B2C8B6EF00070FBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C6562F2C8B6EF00070FBCB /* PBXTargetDependency */,
+			);
+			name = instaflixTests;
+			productName = instaflixTests;
+			productReference = 55C6562D2C8B6EF00070FBCB /* instaflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55C656362C8B6EF00070FBCB /* instaflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C656472C8B6EF00070FBCB /* Build configuration list for PBXNativeTarget "instaflixUITests" */;
+			buildPhases = (
+				55C656332C8B6EF00070FBCB /* Sources */,
+				55C656342C8B6EF00070FBCB /* Frameworks */,
+				55C656352C8B6EF00070FBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C656392C8B6EF00070FBCB /* PBXTargetDependency */,
+			);
+			name = instaflixUITests;
+			productName = instaflixUITests;
+			productReference = 55C656372C8B6EF00070FBCB /* instaflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C656152C8B6EEC0070FBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					55C6561C2C8B6EEC0070FBCB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					55C6562C2C8B6EF00070FBCB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 55C6561C2C8B6EEC0070FBCB;
+					};
+					55C656362C8B6EF00070FBCB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 55C6561C2C8B6EEC0070FBCB;
+					};
+				};
+			};
+			buildConfigurationList = 55C656182C8B6EEC0070FBCB /* Build configuration list for PBXProject "instaflix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C656142C8B6EEC0070FBCB;
+			productRefGroup = 55C6561E2C8B6EEC0070FBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C6561C2C8B6EEC0070FBCB /* instaflix */,
+				55C6562C2C8B6EF00070FBCB /* instaflixTests */,
+				55C656362C8B6EF00070FBCB /* instaflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C6561B2C8B6EEC0070FBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C656282C8B6EEF0070FBCB /* Preview Assets.xcassets in Resources */,
+				55C656252C8B6EEF0070FBCB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C6562B2C8B6EF00070FBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C656352C8B6EF00070FBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C656192C8B6EEC0070FBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C656232C8B6EEC0070FBCB /* ContentView.swift in Sources */,
+				55C656212C8B6EEC0070FBCB /* instaflixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C656292C8B6EF00070FBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C656322C8B6EF00070FBCB /* instaflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C656332C8B6EF00070FBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6563C2C8B6EF00070FBCB /* instaflixUITests.swift in Sources */,
+				55C6563E2C8B6EF00070FBCB /* instaflixUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55C6562F2C8B6EF00070FBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C6561C2C8B6EEC0070FBCB /* instaflix */;
+			targetProxy = 55C6562E2C8B6EF00070FBCB /* PBXContainerItemProxy */;
+		};
+		55C656392C8B6EF00070FBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C6561C2C8B6EEC0070FBCB /* instaflix */;
+			targetProxy = 55C656382C8B6EF00070FBCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55C6563F2C8B6EF00070FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55C656402C8B6EF00070FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C656422C8B6EF00070FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"instaflix/Preview Content\"";
+				DEVELOPMENT_TEAM = CWSVJU4K48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dario.instaflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55C656432C8B6EF00070FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"instaflix/Preview Content\"";
+				DEVELOPMENT_TEAM = CWSVJU4K48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dario.instaflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55C656452C8B6EF00070FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWSVJU4K48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dario.instaflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instaflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instaflix";
+			};
+			name = Debug;
+		};
+		55C656462C8B6EF00070FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWSVJU4K48;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dario.instaflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instaflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instaflix";
+			};
+			name = Release;
+		};
+		55C656482C8B6EF00070FBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWSVJU4K48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dario.instaflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instaflix;
+			};
+			name = Debug;
+		};
+		55C656492C8B6EF00070FBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CWSVJU4K48;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dario.instaflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instaflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C656182C8B6EEC0070FBCB /* Build configuration list for PBXProject "instaflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C6563F2C8B6EF00070FBCB /* Debug */,
+				55C656402C8B6EF00070FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C656412C8B6EF00070FBCB /* Build configuration list for PBXNativeTarget "instaflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C656422C8B6EF00070FBCB /* Debug */,
+				55C656432C8B6EF00070FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C656442C8B6EF00070FBCB /* Build configuration list for PBXNativeTarget "instaflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C656452C8B6EF00070FBCB /* Debug */,
+				55C656462C8B6EF00070FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C656472C8B6EF00070FBCB /* Build configuration list for PBXNativeTarget "instaflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C656482C8B6EF00070FBCB /* Debug */,
+				55C656492C8B6EF00070FBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C656152C8B6EEC0070FBCB /* Project object */;
+}
