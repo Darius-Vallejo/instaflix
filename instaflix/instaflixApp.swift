@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct instaflixApp: App {
+
+    init() {
+        _ = NetworkMonitor.shared
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
