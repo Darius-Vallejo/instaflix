@@ -1,5 +1,8 @@
 #  Instaflix
 
+- This project is ussing SPM so please resolve the packages dependencies (Alamofire and AlamofireImage)
+- Then you can run the project 
+
 # iOS App Architecture
 
 The architecture used is **MVVM** and **Clean Architecture**. Within Clean Architecture, I have integrated two design patterns:
@@ -37,4 +40,3 @@ To comply with the **Single Responsibility Principle**, each layer has one disti
 ## Note
 
 There are auxiliary layers that serve as interface adapters for external frameworks.
-

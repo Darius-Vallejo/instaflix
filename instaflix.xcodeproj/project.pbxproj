@@ -78,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		554EC6352C90BF72007B2180 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		554EC6362C90C104007B2180 /* Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Architecture.png; sourceTree = "<group>"; };
 		556D914C2C8FB81700D787E5 /* HomeViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuilder.swift; sourceTree = "<group>"; };
 		556D914E2C908AAF00D787E5 /* HomeViewConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewConstans.swift; sourceTree = "<group>"; };
 		556D91502C908D9200D787E5 /* MediaDetailsViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailsViewConstants.swift; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 		55C656142C8B6EEC0070FBCB = {
 			isa = PBXGroup;
 			children = (
+				554EC6362C90C104007B2180 /* Architecture.png */,
 				554EC6352C90BF72007B2180 /* README.md */,
 				55C6561F2C8B6EEC0070FBCB /* instaflix */,
 				55C656302C8B6EF00070FBCB /* instaflixTests */,
