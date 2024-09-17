@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55485AD92C99E08500F7DD53 /* MediaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55485AD72C99E08500F7DD53 /* MediaModel.xcdatamodeld */; };
 		554EC6382C90C1F1007B2180 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EC6372C90C1F1007B2180 /* HomeViewModelTests.swift */; };
 		554EC63B2C90C302007B2180 /* UseCasesMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554EC63A2C90C302007B2180 /* UseCasesMocks.swift */; };
 		556D914D2C8FB81700D787E5 /* HomeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D914C2C8FB81700D787E5 /* HomeViewBuilder.swift */; };
@@ -56,7 +57,6 @@
 		55C656A72C8F3AE00070FBCB /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656A62C8F3AE00070FBCB /* CornerRadiusModifier.swift */; };
 		55C656A92C8F5E280070FBCB /* SynchronizationMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656A82C8F5E280070FBCB /* SynchronizationMediator.swift */; };
 		55C656AB2C8F5F410070FBCB /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656AA2C8F5F410070FBCB /* NetworkMonitor.swift */; };
-		55C656AE2C8F603C0070FBCB /* MediaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55C656AC2C8F603C0070FBCB /* MediaModel.xcdatamodeld */; };
 		55C656B02C8F64020070FBCB /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656AF2C8F64020070FBCB /* CoreDataStack.swift */; };
 		55C656BC2C8F69650070FBCB /* MediaCoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C656BB2C8F69650070FBCB /* MediaCoreDataRepository.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55485AD82C99E08500F7DD53 /* MediaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaModel.xcdatamodel; sourceTree = "<group>"; };
 		554EC6352C90BF72007B2180 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		554EC6362C90C104007B2180 /* Architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Architecture.png; sourceTree = "<group>"; };
 		554EC6372C90C1F1007B2180 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
@@ -131,7 +132,6 @@
 		55C656A62C8F3AE00070FBCB /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
 		55C656A82C8F5E280070FBCB /* SynchronizationMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizationMediator.swift; sourceTree = "<group>"; };
 		55C656AA2C8F5F410070FBCB /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
-		55C656AD2C8F603C0070FBCB /* MediaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaModel.xcdatamodel; sourceTree = "<group>"; };
 		55C656AF2C8F64020070FBCB /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		55C656BB2C8F69650070FBCB /* MediaCoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCoreDataRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,7 +246,7 @@
 				55C656772C8D31D30070FBCB /* Encodable+Extensions.swift */,
 				55C6567D2C8D45A80070FBCB /* Mapper.swift */,
 				55C656AA2C8F5F410070FBCB /* NetworkMonitor.swift */,
-				55C656AC2C8F603C0070FBCB /* MediaModel.xcdatamodeld */,
+				55485AD72C99E08500F7DD53 /* MediaModel.xcdatamodeld */,
 				55C656AF2C8F64020070FBCB /* CoreDataStack.swift */,
 			);
 			path = Common;
@@ -551,9 +551,9 @@
 				55C656782C8D31D30070FBCB /* Encodable+Extensions.swift in Sources */,
 				55C656952C8E25DA0070FBCB /* SeriesRestRepository.swift in Sources */,
 				55C6569B2C8E3AF10070FBCB /* FindByFilterContentUseCase.swift in Sources */,
-				55C656AE2C8F603C0070FBCB /* MediaModel.xcdatamodeld in Sources */,
 				55C656902C8DF7880070FBCB /* MoviesRestRepository.swift in Sources */,
 				55C656892C8DF0AA0070FBCB /* ServicesProcol.swift in Sources */,
+				55485AD92C99E08500F7DD53 /* MediaModel.xcdatamodeld in Sources */,
 				55C6565F2C8BD9F90070FBCB /* FindGenreUseCase.swift in Sources */,
 				55C6566F2C8D22B50070FBCB /* MediaEndpoint.swift in Sources */,
 				55C6569F2C8F2A9B0070FBCB /* CustomFilterCategory.swift in Sources */,
@@ -940,14 +940,14 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		55C656AC2C8F603C0070FBCB /* MediaModel.xcdatamodeld */ = {
+		55485AD72C99E08500F7DD53 /* MediaModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				55C656AD2C8F603C0070FBCB /* MediaModel.xcdatamodel */,
+				55485AD82C99E08500F7DD53 /* MediaModel.xcdatamodel */,
 			);
-			currentVersion = 55C656AD2C8F603C0070FBCB /* MediaModel.xcdatamodel */;
+			currentVersion = 55485AD82C99E08500F7DD53 /* MediaModel.xcdatamodel */;
 			name = MediaModel.xcdatamodeld;
-			path = /Users/d.vallejo/Documents/Studying/instaflix/instaflix/Common/MediaModel.xcdatamodeld;
+			path = /Users/d.vallejo/Downloads/instaflix/instaflix/Common/MediaModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
